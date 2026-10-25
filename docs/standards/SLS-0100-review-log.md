@@ -11,7 +11,7 @@ approver, and gate evidence.
 - **Version:** 0.1.0
 - **Draft opened:** 2026-09-04
 - **Formal comment period:** not opened
-- **Draft venue:** [Milestone 4 issue #24](https://github.com/goobolabs/somali-language-standard/issues/24)
+- **Draft venue:** [Milestone 4 issue #24](https://github.com/somastllc/somali-language-standard/issues/24)
 - **Normative document:** [`spec/lexicon/0100-dictionary-standard.md`](../../spec/lexicon/0100-dictionary-standard.md)
 - **Evidence map:** [`SLS-0100-evidence-map.md`](SLS-0100-evidence-map.md)
 - **Pilot packet:** [`SLS-0100-reviewer-packet.md`](SLS-0100-reviewer-packet.md)
@@ -80,5 +80,5 @@ confirmations remain open for follow-up. Batch 3 remains unanswered.
 
 | Transition | Date | Approver | Gate evidence |
 |---|---|---|---|
-| planned → Draft | 2026-09-04 | Maintainer | [Issue #24](https://github.com/goobolabs/somali-language-standard/issues/24); formal template completed; [evidence map](SLS-0100-evidence-map.md) and pilot boundaries recorded |
+| planned → Draft | 2026-09-04 | Maintainer | [Issue #24](https://github.com/somastllc/somali-language-standard/issues/24); formal template completed; [evidence map](SLS-0100-evidence-map.md) and pilot boundaries recorded |
 | Draft → Proposed | *not recorded* | Maintainer | Requires resolved Draft findings and an explicitly opened ≥14-day public-comment period |

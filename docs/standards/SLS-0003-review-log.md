@@ -11,9 +11,9 @@ evidenced.
 - **Standard:** SLS-0003 Somali Grammar Standard
 - **Status:** Proposed
 - **Version:** 0.4.0
-- **Comment period opened:** 2026-08-23 (published in [pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7))
+- **Comment period opened:** 2026-08-23 (published in [pull request #7](https://github.com/somastllc/somali-language-standard/pull/7))
 - **Earliest close (≥14 days):** 2026-09-06
-- **Comment venue:** [issue #11](https://github.com/goobolabs/somali-language-standard/issues/11)
+- **Comment venue:** [issue #11](https://github.com/somastllc/somali-language-standard/issues/11)
 - **Normative document:** [`spec/grammar/0018-somali-grammar-standard.md`](../../spec/grammar/0018-somali-grammar-standard.md)
 
 The comment period is open. It cannot close before 2026-09-06. No comment is
@@ -122,5 +122,5 @@ any lifecycle stage, `Stable` included.
 
 | Transition | Date | Approver | Gate evidence |
 | --- | --- | --- | --- |
-| Draft → Proposed | 2026-08-23 | Founding maintainer, acting as interim Council | [pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7) |
+| Draft → Proposed | 2026-08-23 | Founding maintainer, acting as interim Council | [pull request #7](https://github.com/somastllc/somali-language-standard/pull/7) |
 | Proposed → Review | *not recorded* | Maintainer | Requires the comment period closed with no `open` comment (SLS-0000 R9) |

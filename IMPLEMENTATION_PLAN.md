@@ -84,11 +84,11 @@ implementation phases in this document. See
 ## Phase 2 — Orthography Standard
 
 **Status:** proposal published — SLS-0002, SLS-0004, and SLS-0005 entered
-public review in [pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7)
+public review in [pull request #7](https://github.com/somastllc/somali-language-standard/pull/7)
 on 2026-08-23; the comment period cannot close before 2026-09-06. Comments are
-filed on issues [#10](https://github.com/goobolabs/somali-language-standard/issues/10),
-[#12](https://github.com/goobolabs/somali-language-standard/issues/12), and
-[#13](https://github.com/goobolabs/somali-language-standard/issues/13) and
+filed on issues [#10](https://github.com/somastllc/somali-language-standard/issues/10),
+[#12](https://github.com/somastllc/somali-language-standard/issues/12), and
+[#13](https://github.com/somastllc/somali-language-standard/issues/13) and
 recorded in the matching review logs under `docs/standards/`. One SLS-0004
 question (R16's straight quotation profile versus U+0027) is `open` and blocks
 that standard's `Proposed → Review` transition.
@@ -138,9 +138,9 @@ comment periods left without a written resolution.
 
 **Status:** completion criteria satisfied — SLS-0003 and all eight topic
 documents entered public review in
-[pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7)
+[pull request #7](https://github.com/somastllc/somali-language-standard/pull/7)
 on 2026-08-23; comments are filed on
-[issue #11](https://github.com/goobolabs/somali-language-standard/issues/11) and
+[issue #11](https://github.com/somastllc/somali-language-standard/issues/11) and
 recorded in [`docs/standards/SLS-0003-review-log.md`](docs/standards/SLS-0003-review-log.md).
 The eight topic documents and wrapper are drafted, SLS-0003 is at `Proposed`,
 and the maintainer native-speaker review is complete.
@@ -221,7 +221,7 @@ valid and invalid records), and the repository-wide schema/reference check.
 
 ## Phase 5 — Lexicon
 
-**Status:** in progress — [issue #24](https://github.com/goobolabs/somali-language-standard/issues/24)
+**Status:** in progress — [issue #24](https://github.com/somastllc/somali-language-standard/issues/24)
 tracks the SLS-0100 Draft, source-field audit, maintainer-reviewed pilot, and
 the later 500-entry completion gate.
 

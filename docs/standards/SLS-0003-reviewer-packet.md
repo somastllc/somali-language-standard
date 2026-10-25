@@ -6,7 +6,7 @@ specifications, each with the positive and negative example the standard
 relies on. You do not need to read the repository, run anything, or use git.
 
 - **Standard:** SLS-0003 Somali Grammar Standard (`Proposed`)
-- **Comment venue:** [issue #11](https://github.com/goobolabs/somali-language-standard/issues/11)
+- **Comment venue:** [issue #11](https://github.com/somastllc/somali-language-standard/issues/11)
 - **Review log:** [`SLS-0003-review-log.md`](SLS-0003-review-log.md)
 - **How review works:** [`docs/REVIEWERS.md`](../REVIEWERS.md)
 - **Evidence behind each rule:** [`SLS-0003-evidence-map.md`](SLS-0003-evidence-map.md)
@@ -194,7 +194,7 @@ in a way the “not covered” escape hatch does not already handle?
 
 ## How to answer
 
-Reply in [issue #11](https://github.com/goobolabs/somali-language-standard/issues/11),
+Reply in [issue #11](https://github.com/somastllc/somali-language-standard/issues/11),
 one line per item:
 
 ```

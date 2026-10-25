@@ -234,7 +234,7 @@ sentences. Source-derived forms remain subject to entry-level review.
 - [`resources/sarfe/`](../../resources/sarfe/) — reviewed morphology tables
 - [SLS-0100 evidence map](../../docs/standards/SLS-0100-evidence-map.md)
 - [SLS-0100 review log](../../docs/standards/SLS-0100-review-log.md)
-- [Milestone 4 tracking issue](https://github.com/goobolabs/somali-language-standard/issues/24)
+- [Milestone 4 tracking issue](https://github.com/somastllc/somali-language-standard/issues/24)
 
 ## Revision History
 

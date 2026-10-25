@@ -11,9 +11,9 @@ evidenced.
 - **Standard:** SLS-0004 Somali Punctuation Standard
 - **Status:** Proposed
 - **Version:** 0.2.0
-- **Comment period opened:** 2026-08-23 (published in [pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7))
+- **Comment period opened:** 2026-08-23 (published in [pull request #7](https://github.com/somastllc/somali-language-standard/pull/7))
 - **Earliest close (≥14 days):** 2026-09-06
-- **Comment venue:** [issue #12](https://github.com/goobolabs/somali-language-standard/issues/12)
+- **Comment venue:** [issue #12](https://github.com/somastllc/somali-language-standard/issues/12)
 - **Normative document:** [`spec/orthography/0004-punctuation.md`](../../spec/orthography/0004-punctuation.md)
 
 The comment period is open. It cannot close before 2026-09-06. No comment is `open`: the R16 conflict recorded as M-2 was resolved in 0.2.0, and comment on that resolution is invited in issue #12.
@@ -48,5 +48,5 @@ any lifecycle stage, `Stable` included.
 
 | Transition | Date | Approver | Gate evidence |
 | --- | --- | --- | --- |
-| Draft → Proposed | 2026-08-23 | Founding maintainer, acting as interim Council | [pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7) |
+| Draft → Proposed | 2026-08-23 | Founding maintainer, acting as interim Council | [pull request #7](https://github.com/somastllc/somali-language-standard/pull/7) |
 | Proposed → Review | *not recorded* | Maintainer | Requires the comment period closed with no `open` comment (SLS-0000 R9) |

@@ -97,5 +97,5 @@ every Somali-capable system uses, and licensing friction would defeat that.
 
 ## Where do I ask something not covered here?
 
-Open an [issue](https://github.com/goobolabs/somali-language-standard/issues)
+Open an [issue](https://github.com/somastllc/somali-language-standard/issues)
 — and if the answer turns out to be generally useful, we'll add it here.

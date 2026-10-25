@@ -11,7 +11,7 @@ citable standard that any system, human or machine, can implement against.
 > including the eight-topic SLS-0003 Grammar set, and the 145-file resources
 > evidence baseline is complete. The
 > SLS-0002 through SLS-0005 public-comment periods opened in
-> [pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7)
+> [pull request #7](https://github.com/somastllc/somali-language-standard/pull/7)
 > on 2026-08-23 and cannot close before 2026-09-06. No standard is `Stable`. See the
 > [Roadmap](ROADMAP.md) and [M2 readiness record](docs/standards/MILESTONE-2-READINESS.md).
 > Milestone 3 schema implementation is also complete: all record contracts,

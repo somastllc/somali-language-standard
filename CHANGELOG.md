@@ -259,7 +259,7 @@ releases, schema versions, and per-standard versions relate.
   - Placeholder CI workflows: `validate.yml`, `docs.yml`, `release.yml`
     (TODO-only; no CI logic implemented yet).
 
-[Unreleased]: https://github.com/goobolabs/somali-language-standard/compare/v0.3.0...HEAD
-[0.3.0]: https://github.com/goobolabs/somali-language-standard/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/goobolabs/somali-language-standard/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/goobolabs/somali-language-standard/releases/tag/v0.1.0
+[Unreleased]: https://github.com/somastllc/somali-language-standard/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/somastllc/somali-language-standard/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/somastllc/somali-language-standard/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/somastllc/somali-language-standard/releases/tag/v0.1.0

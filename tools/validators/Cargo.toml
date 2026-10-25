@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 rust-version = "1.85"
 license = "MIT"
-repository = "https://github.com/goobolabs/somali-language-standard"
+repository = "https://github.com/somastllc/somali-language-standard"
 description = "Offline JSON and JSONL validators for Somali Language Standard records"
 publish = false
 

@@ -213,4 +213,4 @@ What carries the weight instead is the record. Every rule traces to cited eviden
 
 The standard is open-source under a **Creative Commons BY 4.0** license for all linguistic content. This means anyone — including commercial AI companies — can freely use and build upon SLS, as long as they credit the source. Fencing off Somali language infrastructure behind proprietary walls is explicitly rejected by the project's design.
 
-SLS is maintained by **Goobo Labs** and the Somali Language Standard contributor community.
+SLS is maintained by **Somast** and the Somali Language Standard contributor community.

@@ -3,7 +3,7 @@
 - **Status:** initial evidence audit for the SLS-0100 Draft; non-normative
 - **Prepared:** 2026-09-04
 - **Target standard:** SLS-0100 Dictionary Standard
-- **Draft venue:** [Milestone 4 issue #24](https://github.com/goobolabs/somali-language-standard/issues/24)
+- **Draft venue:** [Milestone 4 issue #24](https://github.com/somastllc/somali-language-standard/issues/24)
 - **Normative dependencies:**
   [SLS-0001](../../spec/orthography/0001-alphabet.md),
   [SLS-0002](../../spec/orthography/0002-spelling-rules.md), and
