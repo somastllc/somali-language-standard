@@ -48,9 +48,9 @@ SLS-0005 retains its supplementary-source limitation. The eight SLS-0003 topic
 documents and their formal wrapper are included.
 
 The proposal entered public Milestone 2 review in
-[pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7)
+[pull request #7](https://github.com/somastllc/somali-language-standard/pull/7)
 on 2026-08-23. Each `Proposed` standard now has a comment venue —
-issues [#8–#13](https://github.com/goobolabs/somali-language-standard/issues) —
+issues [#8–#13](https://github.com/somastllc/somali-language-standard/issues) —
 and a review log under `docs/standards/`. The ≥14-day comment periods cannot
 close before 2026-09-06,
 and the later human-review gates remain external lifecycle work; their exact
@@ -82,7 +82,7 @@ review workflow end-to-end and to power the spellcheck layer of CI.
 
 The initial evidence-mapped SLS-0100 Draft and twelve-candidate maintainer
 review packet are tracked in
-[issue #24](https://github.com/goobolabs/somali-language-standard/issues/24).
+[issue #24](https://github.com/somastllc/somali-language-standard/issues/24).
 No candidate counts toward the seed until its required lexical fields and new
 bilingual glosses are approved.
 

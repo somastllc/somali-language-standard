@@ -109,7 +109,7 @@ disagreement, both sides are recorded verbatim.
 Nothing in the process requires them, and no standard's progress waits on
 recruitment. But an independent review is still worth more than a maintainer's,
 and anyone offering one is welcome: say so on the
-[call for reviewers](https://github.com/goobolabs/somali-language-standard/issues/16)
+[call for reviewers](https://github.com/somastllc/somali-language-standard/issues/16)
 or on any standard's comment issue. An independent review is recorded as such,
 with the reviewer named in that standard's `reviewers` metadata, so a later
 reader can see which standards have had outside eyes and which have not.

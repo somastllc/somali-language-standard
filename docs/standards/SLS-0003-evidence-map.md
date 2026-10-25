@@ -205,7 +205,7 @@ and the
 [formal SLS-0003 wrapper](../../spec/grammar/0018-somali-grammar-standard.md).
 The founding maintainer accepted that completed Draft for `Proposed`
 publication as part of Milestone 2. Public comment began in
-[pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7)
+[pull request #7](https://github.com/somastllc/somali-language-standard/pull/7)
 on 2026-08-23. Under SLS-0000 0.2.0, the maintainer records lifecycle decisions
 and the correction channel remains open at every stage; independent linguistic
 and technical review is welcome but is not a gate.

@@ -10,7 +10,7 @@ repository from public-comment time and human approvals that must not be
 fabricated. The founding maintainer's instruction to complete Milestone 2 is
 the interim-Council acceptance of SLS-0002 through SLS-0005 for the
 `Draft → Proposed` transition. The transition was published in
-[pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7)
+[pull request #7](https://github.com/somastllc/somali-language-standard/pull/7)
 on 2026-08-23, starting the public-comment periods for SLS-0002 through
 SLS-0005.
 
@@ -45,7 +45,7 @@ SLS-0005.
 ## Lifecycle evidence and remaining gates
 
 SLS-0000 and SLS-0001 were published as `Proposed` in
-[pull request #1](https://github.com/goobolabs/somali-language-standard/pull/1)
+[pull request #1](https://github.com/somastllc/somali-language-standard/pull/1)
 on 2026-07-10. As of 2026-08-23, the public pull-request history contains no
 comment or review on that proposal and the repository has no public issues.
 The 14-day minimum elapsed with no unresolved objection, so both standards
@@ -53,7 +53,7 @@ satisfied the `Proposed → Review` gate in `SLS-0000` R9; the transition was
 recorded on 2026-08-30 in their review logs, and both are now at `Review`.
 
 SLS-0002 through SLS-0005 entered formal public review in
-[pull request #7](https://github.com/goobolabs/somali-language-standard/pull/7)
+[pull request #7](https://github.com/somastllc/somali-language-standard/pull/7)
 on 2026-08-23. Their 14-day minimum ends on 2026-09-06. The following gates
 cannot be completed by repository edits alone:
 
@@ -89,12 +89,12 @@ substantive comment with a written disposition.
 
 | Standard | Comment venue | Review log | Earliest close |
 | --- | --- | --- | --- |
-| SLS-0000 | [#8](https://github.com/goobolabs/somali-language-standard/issues/8) | [`SLS-0000-review-log.md`](SLS-0000-review-log.md) | 2026-07-24 (elapsed) |
-| SLS-0001 | [#9](https://github.com/goobolabs/somali-language-standard/issues/9) | [`SLS-0001-review-log.md`](SLS-0001-review-log.md) | 2026-07-24 (elapsed) |
-| SLS-0002 | [#10](https://github.com/goobolabs/somali-language-standard/issues/10) | [`SLS-0002-review-log.md`](SLS-0002-review-log.md) | 2026-09-06 |
-| SLS-0003 | [#11](https://github.com/goobolabs/somali-language-standard/issues/11) | [`SLS-0003-review-log.md`](SLS-0003-review-log.md) | 2026-09-06 |
-| SLS-0004 | [#12](https://github.com/goobolabs/somali-language-standard/issues/12) | [`SLS-0004-review-log.md`](SLS-0004-review-log.md) | 2026-09-06 |
-| SLS-0005 | [#13](https://github.com/goobolabs/somali-language-standard/issues/13) | [`SLS-0005-review-log.md`](SLS-0005-review-log.md) | 2026-09-06 |
+| SLS-0000 | [#8](https://github.com/somastllc/somali-language-standard/issues/8) | [`SLS-0000-review-log.md`](SLS-0000-review-log.md) | 2026-07-24 (elapsed) |
+| SLS-0001 | [#9](https://github.com/somastllc/somali-language-standard/issues/9) | [`SLS-0001-review-log.md`](SLS-0001-review-log.md) | 2026-07-24 (elapsed) |
+| SLS-0002 | [#10](https://github.com/somastllc/somali-language-standard/issues/10) | [`SLS-0002-review-log.md`](SLS-0002-review-log.md) | 2026-09-06 |
+| SLS-0003 | [#11](https://github.com/somastllc/somali-language-standard/issues/11) | [`SLS-0003-review-log.md`](SLS-0003-review-log.md) | 2026-09-06 |
+| SLS-0004 | [#12](https://github.com/somastllc/somali-language-standard/issues/12) | [`SLS-0004-review-log.md`](SLS-0004-review-log.md) | 2026-09-06 |
+| SLS-0005 | [#13](https://github.com/somastllc/somali-language-standard/issues/13) | [`SLS-0005-review-log.md`](SLS-0005-review-log.md) | 2026-09-06 |
 
 New logs are copied from
 [`REVIEW-LOG-TEMPLATE.md`](REVIEW-LOG-TEMPLATE.md) when a standard enters
@@ -121,7 +121,7 @@ R16 offers a straight `" "` / `' '` quotation profile while its own final
 sentence forbids classifying straight U+0027 as quotation punctuation. The
 resolution is a normative decision, not an editorial fix; it is recorded in
 [`SLS-0004-review-log.md`](SLS-0004-review-log.md) and posted for comment in
-[issue #12](https://github.com/goobolabs/somali-language-standard/issues/12).
+[issue #12](https://github.com/somastllc/somali-language-standard/issues/12).
 
 No verified requirement, example, or evidence mapping changed. No standard
 advanced a lifecycle stage.
