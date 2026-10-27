@@ -9,6 +9,36 @@ fn repository_path(relative: &str) -> PathBuf {
 }
 
 #[test]
+fn plural_alternatives_and_plural_only_nouns_have_distinct_contracts() {
+    let schema = repository_path("schemas/lexicon-entry.schema.json");
+    let valid = validate_path(
+        &schema,
+        &repository_path("tools/validators/tests/fixtures/valid-lexicon-number.jsonl"),
+    )
+    .expect("valid number fixtures should be readable");
+    assert!(valid.is_valid(), "{:?}", valid.diagnostics);
+    assert_eq!(valid.records_checked, 2);
+
+    let invalid = validate_path(
+        &schema,
+        &repository_path("tools/validators/tests/fixtures/invalid-lexicon-number.jsonl"),
+    )
+    .expect("invalid number fixtures should be readable");
+    assert_eq!(invalid.records_checked, 4);
+    for (line, path) in [
+        (1, "/plural"),
+        (2, "/plural"),
+        (3, "/part_of_speech"),
+        (4, "/plural_variants"),
+    ] {
+        assert!(
+            invalid.diagnostics.iter().any(|diagnostic| diagnostic.line == Some(line) && diagnostic.instance_path == path),
+            "missing diagnostic for line {line} {path}: {:?}", invalid.diagnostics
+        );
+    }
+}
+
+#[test]
 fn valid_lexicon_entry_passes_with_local_metadata_reference() {
     let report = validate_path(
         &repository_path("schemas/lexicon-entry.schema.json"),

@@ -2,6 +2,7 @@
 
 - **Status:** initial evidence audit for the SLS-0100 Draft; non-normative
 - **Prepared:** 2026-09-04
+- **Consistency audit:** 2026-10-27
 - **Target standard:** SLS-0100 Dictionary Standard
 - **Draft venue:** [Milestone 4 issue #24](https://github.com/somastllc/somali-language-standard/issues/24)
 - **Normative dependencies:**
@@ -123,8 +124,26 @@ missing evidence into a lexical claim.
 `null` means unresolved and is not interpreted as `false`. `loan_origin`
 remains required only when the status is `true`.
 
-Both changes accept every v1.0.0 record and add explicit representations, so
-the proposed schema version is 1.1.0.
+Both changes accept every v1.0.0 record and add explicit representations;
+they were implemented in schema 1.1.0.
+
+### S3 — plural alternatives and plural-only behavior need distinct fields
+
+The first records used `variants` for both headword variants (`middi`,
+`sokor`) and alternative plurals (`buugaag`, `qalinno`, `guryo`). Schema 1.2.0
+adds optional `plural_variants` and moves the latter three reviewed forms
+there without changing their text. `number_behavior: plural-only` now records
+the classification of `biyo` explicitly, retaining `plural: "biyo"`.
+These fields require a noun with a non-null lexical plural. Existing records
+without these optional fields remain structurally valid.
+
+All eighteen IDs remain assigned. The `nin` record is draft pending approval
+of its expanded sense-3 Somali text (D-7/QF1), leaving seventeen records counted
+as reviewed. The `guri` verb definitions remain as supplied while their scope
+difference is presented in D-9/QF2. The `baaf` origin remains an uncertain
+maintainer-supplied alternative, not an independently established Italian
+derivation. Named metadata identifies sharafdin as the maintainer reviewer;
+it does not imply independent review.
 
 ## Pilot sample
 
@@ -154,7 +173,10 @@ the reviewed pilot total to eight records. Batch 3 is now assigned IDs
 `sls:lex:000009`–`sls:lex:000014`, bringing the reviewed pilot total to fourteen
 records. The specialized splint noun remains deferred. Batch 4 is now assigned
 IDs `sls:lex:000015`–`sls:lex:000018`, bringing the reviewed pilot total to
-eighteen records; `isku baab` remains deferred.
+eighteen assigned records; `isku baab` remains deferred. After the consistency
+audit, seventeen records count as reviewed and `nin` is draft pending QF1.
+Batch 5 (`baaldi`, the sea reading of `bad`, `baraf`, and `bariis`) is prepared
+in LQ17–LQ20 without allocating further IDs.
 
 ## Draft decisions
 
@@ -178,8 +200,8 @@ eighteen records; `isku baab` remains deferred.
 - the assigned ID is the next unused permanent lexicon ID;
 - the JSONL file passes local repository validation.
 
-Batch 1 evidence outcome: the four reviewed records are in
-`data/lexicon/core/batch-1.jsonl`; `baabuur` has reviewed Arabic/Italian loan
+Batch 1 evidence outcome: records are partitioned by initial letter in
+`data/lexicon/core/`; `baabuur` has reviewed Arabic/Italian loan
 origin, `naag` and `nin` have reviewed non-loanword status, and `mindi` records
 `middi` as a reviewed variant.
 

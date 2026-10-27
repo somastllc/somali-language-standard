@@ -118,6 +118,11 @@ version 1.1.0 after the SLS-0100 audit showed that a required string plural and
 Boolean loanword default would force unsupported lexical claims.
 
 Definitions require a numbered sense, English definition, and Somali gloss.
+Schema 1.2.0 adds optional `plural_variants` for reviewed alternative plurals
+and `number_behavior: plural-only` for a reviewed plural-only noun. Both
+require a noun with a non-null lexical plural. Headword spelling or phonetic
+alternatives remain in `variants`. No number classification is inferred when
+the optional field is absent.
 References to example sentences use permanent `sls:sent:NNNNNN` identifiers.
 Those references resolve against the example-sentence contract and are checked
 for dangling IDs by the repository validator.

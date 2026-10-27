@@ -12,6 +12,10 @@ releases, schema versions, and per-standard versions relate.
 
 ### Added
 
+- Lexicon schema 1.2.0 fields for reviewed alternative plurals and plural-only
+  nouns, with fixtures covering valid records and incompatible combinations.
+- Four unanswered Batch 5 candidates (LQ17–LQ20) and two explicit consistency
+  follow-ups about existing `nin` and `guri` definitions.
 - Initial evidence-mapped SLS-0100 Dictionary Standard Draft, review log, and
   twelve-candidate maintainer packet for the Milestone 4 lexicon pilot.
 - Milestone 4 tracking issue and documented source-to-record boundaries for
@@ -20,6 +24,13 @@ releases, schema versions, and per-standard versions relate.
 
 ### Changed
 
+- Advanced SLS-0100 to Draft 0.2.0 for the explicit morphology requirements;
+  reconciled metadata, review dispositions, source pointers, and file layout.
+- Partitioned the eighteen existing lexicon IDs by initial letter. Plural
+  alternatives now use `plural_variants`; `biyo` explicitly records plural-only
+  behavior. Exact Somali definitions and IDs are preserved. The unapproved
+  expansion of the `nin` sense-3 gloss returns that record to draft pending
+  maintainer approval, leaving seventeen records counted as reviewed.
 - Expanded `lexicon-entry.schema.json` to version 1.1.0: noun `plural` can be
   JSON `null` only for a reviewed absence of an ordinary plural, and
   `is_loanword` can be `null` when etymological status is unresolved. This

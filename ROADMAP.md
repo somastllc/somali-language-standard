@@ -85,6 +85,10 @@ review packet are tracked in
 [issue #24](https://github.com/somastllc/somali-language-standard/issues/24).
 No candidate counts toward the seed until its required lexical fields and new
 bilingual glosses are approved.
+The 2026-10-27 consistency audit records eighteen assigned lexicon IDs:
+seventeen reviewed records and one draft awaiting approval of its exact gloss.
+Batch 5 is prepared; the milestone remains open until at least 500 reviewed
+entries and the remaining completion criteria are met.
 
 ## Milestone 5 — Terminology *(v0.5)*
 
