@@ -402,6 +402,9 @@ applies to the recorded reading. `is_loanword` is `true`, `false`, or JSON
 `null` for unresolved status; a `true` value requires `loan_origin`. These
 nullable values were added in lexicon schema 1.1.0 during the SLS-0100 Draft
 audit so missing evidence is not converted into a false lexical claim.
+Lexicon schema 1.2.0 adds `plural_variants` for alternative plurals and optional
+`number_behavior: plural-only`. A plural-only noun retains its attested form
+in `plural`; headword variants remain separate in `variants`.
 
 **Terminology entry** (`terminology-entry.schema.json`) — see §9 for the full field rationale.
 

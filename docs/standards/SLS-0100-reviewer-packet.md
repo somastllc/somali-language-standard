@@ -1,12 +1,12 @@
 # SLS-0100 Pilot Reviewer Packet
 
 - **Prepared:** 2026-09-04
-- **Status:** All 16 pilot questions answered and recorded; 18 reviewed records are in the seed, with `isku baab`, the splint noun, and `hooyo¹ → hoy` deferred
+- **Status:** LQ1–LQ16 answered; QF1–QF2 require clarification; Batch 5 (LQ17–LQ20) awaits review. Eighteen IDs are assigned: seventeen reviewed records and one draft.
 - **Standard:** [SLS-0100 Dictionary Standard](../../spec/lexicon/0100-dictionary-standard.md)
 - **Evidence map:** [SLS-0100 Dictionary Evidence Map](SLS-0100-evidence-map.md)
 - **Decision record:** [SLS-0100 Review Log](SLS-0100-review-log.md)
 
-This packet turns twelve representative dictionary cases into explicit
+This packet turns representative dictionary cases into explicit
 maintainer questions. The source text is evidence, while the proposed Somali
 and English glosses are new Draft wording. Answers are recorded verbatim in the
 review log. Only then may an approved entry receive an `sls:lex:` identifier and
@@ -209,7 +209,7 @@ meaning be another sense of the same word? Confirm the primary class, gender,
 number behaviour, concise Somali glosses, and matching English definitions
 before any record is proposed.
 
-## Batch 3 — homographs and source cross-references
+## Batch 3 — homographs and source cross-references (answered; MR-13–MR-20)
 
 ### LQ9 — `guri`
 
@@ -284,11 +284,11 @@ Which plural should the core record use, and how should the other listed forms
 be represented? Confirm whether the neutral definition changes the source
 meaning correctly for present Standard Somali.
 
-## Batch 4 — initial `b` nouns
+## Batch 4 — initial `b` nouns (answered; MR-21–MR-24)
 
-These four candidates are drawn from the next unreviewed entries in the
-principal dictionary source. Their bilingual glosses are provisional Draft
-wording, not approved data.
+These four original proposals are retained for auditability. MR-21–MR-24
+record the maintainer's final values, including corrected plurals and gender;
+the record values follow those answers rather than these earlier proposals.
 
 ### LQ13 — `baab`
 
@@ -343,6 +343,99 @@ used for washing clothes.`
 
 **Decision needed:** Confirm all proposed values and whether this is the only
 core sense for the first seed.
+
+## Consistency follow-up — October 2026
+
+The questions below identify approval or alignment gaps in existing records.
+The original maintainer answers remain unchanged in the review log.
+
+### QF1 — exact `nin` commendatory gloss (D-7)
+
+MR-3 supplied `nin rag ah` and the meaning “a brave, honorable, or capable
+man.” The stored Somali gloss was expanded to `Nin rag ah oo geesi, sharaf
+leh, ama karti leh.` That exact expansion has not been approved. The record
+`sls:lex:000003` is now draft, retaining its ID and text.
+
+**Decision needed:** Approve the exact stored Somali gloss, or supply its
+replacement. The English definition is `A brave, honorable, or capable man.`
+Is it aligned with your chosen Somali wording?
+
+### QF2 — align the `guri` verb definitions (D-9)
+
+MR-17 supplied Somali `Ururinta ama soo goynta miraha, dalagga, ama alaabta.`
+and English `To gather, harvest, or pick fruits or crops.` Both remain exactly
+as supplied in `sls:lex:000010`. The Somali includes `alaabta`; the English
+mentions only fruits or crops.
+
+**Decision needed:** Should the English definition include goods or objects,
+or should the Somali definition have a narrower scope? Supply the exact pair
+you want used, or explain why the existing pair should stand.
+
+## Batch 5 — containers, sea, ice, and rice (unanswered)
+
+These proposed values and new glosses require maintainer approval. No IDs are
+allocated. All four candidates propose `part_of_speech: magac`, `dialect: so`,
+and unresolved `is_loanword: null` unless the maintainer supplies a supported
+classification. Confirm these shared fields along with each question.
+
+### LQ17 — `baaldi`
+
+**Source evidence:** [`qaamuus/01-b.md`](../../resources/qaamuus/01-b.md)
+records `baaldi m.l (-iyo, m.dh)` and two container descriptions: one for
+water and another for milk.
+
+**Proposed values:** gender `masculine`; plural candidate `baaldiyo`.
+Somali draft gloss: `Weel af ballaaran iyo siddo leh oo dareere lagu qaado.`
+English draft definition: `A bucket with a wide opening and a handle, used
+to carry liquids.`
+
+**Decision needed:** Confirm or replace the plural, gender, gloss pair, and
+loanword status. Should the water and milk uses be one sense or separate
+senses? If separate, supply aligned definitions for both.
+
+### LQ18 — `bad` (sea noun)
+
+**Source evidence:** [`qaamuus/01-b.md`](../../resources/qaamuus/01-b.md)
+records `bad¹ m.dh (-do, m.l)` with sea, card-playing-area, and poetic-meter
+readings. Only the sea reading is proposed for this batch.
+
+**Proposed values:** gender `feminine`; plural candidate `bado`.
+Somali draft gloss: `Biyo milix leh oo ku fidsan qayb weyn oo dhulka ah.`
+English draft definition: `A sea; a large body of salt water.`
+
+**Decision needed:** Confirm or replace the plural, gender, definitions, and
+loanword status. May the other readings be deferred while the first seed
+records the sea sense alone?
+
+### LQ19 — `baraf`
+
+**Source evidence:** [`qaamuus/01-b.md`](../../resources/qaamuus/01-b.md)
+records masculine `baraf`, plural notation `-fyo`, and frozen-water and very
+cold readings. The source notation does not settle the scope of a mass versus
+count reading.
+
+**Proposed gloss for review:** Somali `Biyo qabow awgiis u adkaaday.` /
+English `Ice; water frozen into a solid.` Gender candidate: `masculine`.
+
+**Decision needed:** Does this reading take reviewed plural `null`, the lexical
+plural `barafyo`, or a different value? Explain the reading to which that value
+applies. Does this entry also cover snow, or only ice? Confirm definitions and
+loanword status; do not derive a plural from the suffix without review.
+
+### LQ20 — `bariis`
+
+**Source evidence:** [`qaamuus/01-b.md`](../../resources/qaamuus/01-b.md)
+records masculine `bariis`, describes the cultivated plant and its edible
+grains, and lists `bariid` after `ld`. No plural is listed.
+
+**Proposed gloss for review:** Somali `Badar la beerto oo iniinihiisa la
+kariyo lana cuno.` / English `Rice; a cultivated grain cooked and eaten as
+food.` Gender candidate: `masculine`.
+
+**Decision needed:** Confirm gender, the ordinary plural value, the exact
+gloss pair, and loanword status. Should plant, uncooked grain, and cooked rice
+be separate senses? Should `bariid` be a reviewed variant or remain deferred?
+An absent source plural does not itself authorize `null`.
 
 ## Approval effect
 

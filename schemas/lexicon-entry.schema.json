@@ -3,7 +3,7 @@
   "$id": "lexicon-entry.schema.json",
   "title": "SLS Lexicon Entry",
   "description": "A Somali headword, its lexical properties, definitions, references, and provenance.",
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "type": "object",
   "required": [
     "sls_id",
@@ -57,6 +57,18 @@
       "type": "string",
       "minLength": 1,
       "description": "International Phonetic Alphabet transcription."
+    },
+    "plural_variants": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Reviewed alternative plural forms; distinct from variants of the canonical headword."
+    },
+    "number_behavior": {
+      "type": "string",
+      "enum": ["plural-only"],
+      "description": "Optional reviewed plural-only classification; omission makes no claim about number behavior."
     },
     "dialect": {
       "type": "string",
@@ -141,6 +153,26 @@
     }
   },
   "allOf": [
+    {
+      "if": { "required": ["plural_variants"] },
+      "then": {
+        "properties": {
+          "part_of_speech": { "const": "magac" },
+          "plural": { "type": "string" }
+        },
+        "required": ["plural"]
+      }
+    },
+    {
+      "if": { "required": ["number_behavior"] },
+      "then": {
+        "properties": {
+          "part_of_speech": { "const": "magac" },
+          "plural": { "type": "string" }
+        },
+        "required": ["plural"]
+      }
+    },
     {
       "if": {
         "properties": {

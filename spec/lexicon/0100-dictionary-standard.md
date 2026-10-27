@@ -2,8 +2,8 @@
 id: "0100"
 sls_id: SLS-0100
 title: Dictionary Standard
-version: 0.1.0
-standard_version: 0.1.0
+version: 0.2.0
+standard_version: 0.2.0
 status: Draft
 category: lexicon
 owner: maintainers
@@ -18,6 +18,9 @@ publication_date: null
 supersedes: null
 superseded_by: null
 revision_history:
+  - version: 0.2.0
+    date: 2026-10-27
+    change: "Pilot consistency correction: separate plural alternatives from headword variants and encode reviewed plural-only nouns; MUST-level clarification, pre-1.0 breaking change under R11"
   - version: 0.1.0
     date: 2026-09-04
     change: Initial evidence-mapped draft
@@ -106,6 +109,10 @@ status.
   JSON `null` for a reviewed absence of an ordinary plural. A missing or
   uncertain plural **MUST NOT** be guessed from singular spelling, a productive
   suffix, or gender polarity.
+  Reviewed alternative plurals **MUST** use `plural_variants`, rather than the
+  headword `variants` field. A reviewed plural-only classification **MUST** use
+  `number_behavior: plural-only`, with the attested form in `plural`; it
+  **MUST NOT** be encoded as an absence of a plural using `null`.
 - **R6. Cross-references.** A dictionary marker such as `ld` or `eeg` **MAY** be
   used as evidence for a candidate relationship, but **MUST NOT** be converted
   automatically into `synonyms`, `antonyms`, a preferred headword, or a merged
@@ -172,6 +179,8 @@ sentences. Source-derived forms remain subject to entry-level review.
 | R4 | Two meanings represented as senses 1 and 2 with matching reviewed English and Somali text | Copying an upstream definition with unconfirmed rights and labeling it project-authored CC BY 4.0 | Sense structure does not erase authorship or rights. |
 | R5 | `"gender":"feminine", "plural":"mindiyo"` after lexical review | Adding `"plural":"qalimo"` only because the form seems predictable | A plausible plural is still unreviewed evidence. |
 | R5 | `"plural":null` after review finds no ordinary plural for the recorded mass reading | Using `null` merely because nobody checked | `null` records a reviewed absence, not missing work. |
+| R5 | `"plural":"buugag", "plural_variants":["buugaag"]` | `"variants":["buugaag"]` on the `buug` headword | A plural alternative is not a singular headword variant. |
+| R5 | `"number_behavior":"plural-only", "plural":"biyo"` after review | `"number_behavior":"plural-only", "plural":null` | Plural-only describes an attested number pattern, not an absent plural. |
 | R6 | Holding `sonkor ld sokor` for relationship review | Automatically inserting `"synonyms":["sokor"]` | `ld` does not by itself settle canonicality or sense identity. |
 | R7 | `"is_loanword":null` when etymology is unresolved | `"is_loanword":false` used as a default | Unknown is not evidence of non-borrowing. |
 | R8 | Omitting `ipa` and `frequency_rank` where no method supplies them; recording a reviewed variant as `variants` | Inventing an IPA string or rank to complete the object, or treating a variant as an unreviewed synonym | Optional fields still require evidence and relation types must remain distinct. |
@@ -241,3 +250,4 @@ sentences. Source-derived forms remain subject to entry-level review.
 | Version | Date | Change |
 |---|---|---|
 | 0.1.0 | 2026-09-04 | Initial evidence-mapped draft |
+| 0.2.0 | 2026-10-27 | Separate plural alternatives and plural-only classification from headword variants and missing plurals; MUST-level clarification, pre-1.0 breaking change under R11 |
