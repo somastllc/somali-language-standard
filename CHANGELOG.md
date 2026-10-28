@@ -12,6 +12,9 @@ releases, schema versions, and per-standard versions relate.
 
 ### Added
 
+- Empty loanword, noun-paradigm, and verb-conjugation file skeletons matching
+  the planned lexicon layout, with documentation of their validation and
+  review boundaries. Existing lexicon records and reviewed counts are unchanged.
 - Lexicon schema 1.2.0 fields for reviewed alternative plurals and plural-only
   nouns, with fixtures covering valid records and incompatible combinations.
 - Four unanswered Batch 5 candidates (LQ17–LQ20) and two explicit consistency
