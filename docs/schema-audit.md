@@ -1,7 +1,7 @@
 # Phase 4 Record-Format Audit
 
 - **Status:** Phase 4 implementation complete; hosted CI verified
-- **Last updated:** 2026-09-04
+- **Last updated:** 2026-10-28
 - **Scope:** Milestone 3 / Phase 4 machine-readable schemas and validators
 
 ## Current repository state
@@ -14,15 +14,16 @@ of the planned linguistic record schemas.
 
 Implementation began with the shared metadata contract and a
 record-type-independent validator, then added the payload contracts listed
-below. The linguistic data directories remain empty except for controlled
-configuration; synthetic fixtures test structure without becoming evidence.
+below. Milestone 4 has since added eighteen assigned lexicon records (seventeen
+reviewed and one draft as of 2026-10-28). Synthetic fixtures remain structural
+checks, separate from that evidence-bearing dataset.
 
 ## Schema routing
 
 | Schema | Planned records | Current routing state |
 |---|---|---|
 | `metadata-common.schema.json` | The `metadata` object in every linguistic JSONL record | Implemented as the shared Phase 4 foundation |
-| `lexicon-entry.schema.json` | `data/lexicon/core/**/*.jsonl` and `data/lexicon/loanwords.jsonl` | Implemented; no data records yet |
+| `lexicon-entry.schema.json` | `data/lexicon/core/**/*.jsonl` and `data/lexicon/loanwords.jsonl` | Implemented; eighteen core records; empty loanword skeleton |
 | `terminology-entry.schema.json` | Domain files under `data/terminology/` | Implemented; no terminology data records yet |
 | `example-sentence.schema.json` | `data/corpora/example-sentences.jsonl` | Implemented; no corpus sentence records yet |
 | `sentence-pair.schema.json` | `data/translation/**/*.jsonl` | Implemented; no translation data records yet |

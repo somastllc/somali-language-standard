@@ -232,7 +232,8 @@ entry → schema validation → review gate → merge.
 
 - [ ] `data/lexicon/core/` seeded with ~500–1,000 curated entries
       (definitions, POS, gender, plurals, loanword flags, provenance)
-- [ ] Loanword and morphology file skeletons per the architecture tree
+- [x] Loanword and morphology file skeletons per the architecture tree
+      (empty reserved files; morphology awaits a schema and routing before use)
 - [x] SLS-0100 (Dictionary Standard) initial evidence-mapped Draft and pilot
       review packet prepared
 - [ ] Review workflow exercised: every entry has a maintainer review on record
